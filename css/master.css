@@ -1,0 +1,49 @@
+html{
+  color:white;
+  background-image:url("../media/eva.jpg");
+  background-repeat: no-repeat;
+  background-position: auto;
+  background-size: 100%,100%;
+  font-family: arial;
+}
+/*color*/
+
+:root {
+    --col1:#4D0700;
+}
+:root {
+    --col2:#33130F;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+/*menu*/
+
+.menu{
+ background-color:var(--@col1);
+ width:100%;
+ position: relative;
+ text-align: center;
+ display: block;
+ margin: 0;
+ padding: 0;
+}
+.menu-bar{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:var(--col1);
+}
+.menu-item{
+  padding: 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+ul li{
+    float: left;
+}
