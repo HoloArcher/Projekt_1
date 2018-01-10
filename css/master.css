@@ -4,22 +4,15 @@ html{
  /* background-color: #CCCCCC;*/
   background-size: 20%;
 }
-.title{
-  font-size: 60;
-  font-family: impact;
-  color: black;
-  text-align: center;
 
-  background-color: white;
-}
 /*color*/
 
-:root {
-    --col1:#071930;
-}
-:root {
-    --col2:#023852;
-}
+:root {--col1:#071930;}
+:root {--col2:#023852;}
+:root {--col3:#749bb7;}
+:root {--col4:#023852;}
+
+/*General*/
 li{
   text-decoration: none;
   list-style-type: none;
@@ -35,6 +28,14 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.title{
+  font-size: 60;
+  font-family: impact;
+  color: black;
+  text-align: center;
+
+  background-color: white;
 }
 
 /*menu*/
@@ -63,6 +64,7 @@ body{
 }
 .menu-item{
   padding: 1em;
+  margin-bottom:0;
   padding-left: 2em;
   padding-right: 2em;
   margin: inherit;
@@ -101,15 +103,26 @@ background-color: var(--col2);
 }*/
 
 /*center*/
-.center{
-width: 90%;
-height:60em;
+.center-block{
+width: 80%;
+height:90em;
 bottom: 0;
 margin:5%;
+padding: 5%;
 left:0;
 right:0;
-background-color: white;
+background-color:var(--col3);
 position: relative;
+margin-top:0;
+}
+.center{
+  margin-top: 0;
+  background-color:var(--col1);
+  display:block;
+  width: auto;
+      height: 90%;                    /*READ*/
+  position:center;
+  margin: 0;
 }
 
 /*footer*/
