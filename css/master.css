@@ -50,24 +50,7 @@ h1,h2,ul li a,ul li{
 }
 
 
-h1{
-  font-size: 60px;
-  font-family: impact;
-  color: black;
-  text-align: center;
-  background-color: white;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-h2{
-  font-size: 40px;
-  font-family: impact;
-  color: black;
-  text-align: center;
-  background-color: white;
-  margin: 0;
 
-}
 /*Varibles*/
 .unselectable {
     -webkit-touch-callout: none;
@@ -86,8 +69,28 @@ h2{
   text-decoration: underline;
 }
 
-/*menu*/
-
+/*Header-title*/
+.header-title{
+  height: auto;
+}
+h1{
+  font-size: 60px;
+  font-family: impact;
+  color: black;
+  text-align: center;
+  background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+  font-size: 40px;
+  font-family: impact;
+  color: black;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+}
+/*Menu*/
 .menu{
  background-color:var(--@col1);
  width:161.8%;
@@ -102,6 +105,7 @@ h2{
   display: block;
   /*display: inline-block;*/
   margin: 0;
+  height: inherit;
   padding: auto;
   padding-left: 10%;
   padding-right: 10%;
@@ -139,11 +143,10 @@ h2{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 700;
+  font-weight: 900;
 }
 a.menu-item:hover{
 background-color: var(--col2);
-  font-weight: 900;
 }
 .menu-item-bottom{
   padding:3%;
@@ -168,9 +171,17 @@ font-weight: 900;
 
 /*Sidebar*/
  .sidebar{
-   background-color: red;
    float: right;
    display: block;
+   width: 38.2%;
+   height: 89em;
+}
+.sidebar-block{
+  background-color:blue;
+  width: 80%;
+  height:80%;
+  margin:10%;
+  margin-top: 203.469px;
 }
 
 
