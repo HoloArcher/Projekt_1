@@ -7,6 +7,10 @@ html{
 
 /*color*/
 
+.kek{
+  background: linear-gradient(to right, red , yellow);
+}
+
 :root {--col1:#071930;}
 :root {--col2:#023852;}
 :root {--col3:#749bb7;}
