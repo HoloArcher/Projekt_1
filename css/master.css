@@ -70,8 +70,14 @@ h1,h2,ul li a,ul li{
 }
 
 /*Header-title*/
-.header-title{
+.header{
   height: auto;
+}
+.header-title{
+  text-align:center;
+  float:left;
+  margin-left: 33%;
+  display:block;
 }
 h1{
   font-size: 60px;
@@ -107,6 +113,7 @@ h2{
   margin: 0;
   height: inherit;
   padding: auto;
+  height: 3em;
   padding-left: 10%;
   padding-right: 10%;
   overflow: hidden;
@@ -129,10 +136,11 @@ h2{
 
 }
 .menu-item{
-  padding: 1em;
+  height: 2em;
+  padding:1em;
   padding-left: 2em;
   padding-right: 2em;
-  margin:auto;
+  margin:0;
   display: block;
   font-family: arial;
   text-align: center;
@@ -178,9 +186,11 @@ font-weight: 900;
 }
 .sidebar-block{
   background-color:blue;
-  width: 80%;
-  height:80%;
+  width: auto;
+  height:auto;
   margin:10%;
+  padding: 2em;
+  text-align: center;
   margin-top: 203.469px;
 }
 
